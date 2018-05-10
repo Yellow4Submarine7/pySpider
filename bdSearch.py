@@ -29,7 +29,7 @@ for h3 in tagh3:
         api = url2io.API('bjb4w0WATrG7Lt6PVx_TrQ')
         ret = api.article(url=real_url,fields=['text', 'next'])
         text = ret['text']
-        result = open('/Users/cunter/Desktop/爬虫/result.txt','a')
+        result = open('','a')
         result.write(text)
 
 
