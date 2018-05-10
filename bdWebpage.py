@@ -11,7 +11,7 @@ for i in range(1,20):
     api = url2io.API('bjb4w0WATrG7Lt6PVx_TrQ')
     ret = api.article(url=alink, fields=['text', 'next'])
     text = ret['text']
-    result = open('/Users/cunter/Desktop/爬虫/result.txt', 'a')#自己修改
+    result = open('', 'a')#自己修改
     result.write(text)
 
 
