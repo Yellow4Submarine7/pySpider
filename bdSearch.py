@@ -17,7 +17,7 @@ headers = {
     'Connection': 'keep-alive',
     'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0'
 }
-all = open('/Users/cunter/Desktop/爬虫/test.txt', 'a')
+all = open('', 'a')#自己添加
 soup = BeautifulSoup(page,'lxml')
 tagh3 = soup.find_all('h3')
 for h3 in tagh3:
